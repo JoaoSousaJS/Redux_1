@@ -1,5 +1,11 @@
+import SongList from './SongList'
+
 function App() {
-  return <div>app</div>
+  return (
+    <div>
+      <SongList />
+    </div>
+  )
 }
 
 export default App
