@@ -1,5 +1,7 @@
-const index = () => {
+import { connect } from 'react-redux'
+
+const SongList = () => {
   return <div>SongList</div>
 }
 
-export default index
+export default connect()(SongList)
