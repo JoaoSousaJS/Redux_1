@@ -1,5 +1,8 @@
 export type ReducerProps = {
-  selectedSong: string | null
+  selectedSong: {
+    title: string
+    duration: string
+  } | null
   songs: {
     title: string
     duration: string

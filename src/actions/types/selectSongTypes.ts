@@ -1,4 +1,7 @@
 export type SelectSongs = {
   type: string
-  payload: string
+  payload: {
+    title: string
+    duration: string
+  } | null
 }
