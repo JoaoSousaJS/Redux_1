@@ -2,7 +2,6 @@ import { ConnectedProps } from 'react-redux'
 import { connector } from '../../reducers/songs'
 
 const SongList = (props: ConnectedProps<typeof connector>) => {
-  console.log(props)
   const renderList = () => {
     return props.songs.map((song) => {
       return (
